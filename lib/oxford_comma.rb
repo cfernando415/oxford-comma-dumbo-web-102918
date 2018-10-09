@@ -13,5 +13,5 @@ def oxford_comma(array)
       end
     end
   end
-  solution
+  solution.chomp
 end
