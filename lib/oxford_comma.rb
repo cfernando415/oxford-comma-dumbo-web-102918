@@ -1,7 +1,7 @@
 def oxford_comma(array)
   solution = ""
   if array.size == 1
-    puts array.to_s
+    solution = array.to_s
   elsif array.size == 2
     solution = array.first + " and " + array.last
   else
